@@ -210,6 +210,7 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)), 
         url(../images/hero-bkg.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -466,7 +467,7 @@ body {
     }
 
 .footer-social-link:is(:hover, :focus) {
-    background-color: var(--accent-color);
+    background-color: #31D0AA;
 }
 
 .footer-social-icon {
